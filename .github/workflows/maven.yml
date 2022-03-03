@@ -34,3 +34,4 @@ jobs:
       run: mvn javadoc:javadoc --file pom.xml
     - name: Check Licences
       run: mvn apache-rat:check --file pom.xml
+      
